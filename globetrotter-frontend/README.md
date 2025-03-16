@@ -32,3 +32,8 @@ Welcome to the **Globetrotter Challenge**! This is the frontend of a **full-stac
 ```sh
 git clone https://github.com/your-username/globetrotter-frontend.git
 cd globetrotter-frontend
+npm install
+### 1 Create a .env file in the root directory and add:
+```sh
+REACT_APP_API_BASE_URL=http://your-backend-api-url
+npm start
